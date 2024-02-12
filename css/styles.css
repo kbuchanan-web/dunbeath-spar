@@ -1,0 +1,186 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  /* font-family: 'Permanent Marker', cursive; */
+  font-size: 3rem;
+  color: #196638;
+  font-weight: bold;
+  padding-bottom: 5%;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #196638;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+p {
+  color: #2A2926;
+}
+
+#title {
+  padding: 7% 7% 0 7%;
+  background-color: #f6efdb;
+}
+
+.title-image {
+  background-image: url('../images/shop_header.jpg');
+  min-height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-header {
+    font-size: 2.5rem;
+  }
+}
+
+/* Navbar */
+.nav-item {
+  padding: 0 14px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: #ec2525;
+}
+
+.navbar-toggler-icon:focus,
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+  border: none;
+}
+
+.navbar {
+  padding: 1% 7% !important;
+  background-color: #196638;
+}
+
+/* Opening Hours section */
+#opening {
+  padding: 2% 7%;
+  background-color: #f6efdb;
+}
+
+.opening-header {
+  padding-bottom: 2rem;
+  color: #196638;
+}
+
+.about-box {
+  text-align: left;
+}
+
+.custom-table-header {
+  padding-bottom: 5%;
+  font-size: 1.2rem;
+  color: #2A2926;
+  padding: 0.5rem;
+}
+
+.table td, .table th {
+  padding: 0.5rem !important;
+  border-top: 0.5px dotted #196638 !important;
+}
+
+.icon,
+.footer-icon {
+  color: #196638;
+  margin-bottom: 1rem;
+}
+
+.footer-icon:hover {
+  color: #ec2525;
+}
+
+/* Services section */
+#services {
+  padding: 0 7%;
+  background-color: #f6efdb;
+}
+
+.card-title {
+  color: #2A2926;
+}
+
+.card-text {
+  color: #2A2926;
+}
+
+.services-intro {
+  border-top: 1px solid #b3afa680;
+  text-align: center;
+  color: #196638;
+  padding: 2% 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog-column {
+    padding-bottom: 2%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .second-card-row {
+    padding-top: 2%;
+  }
+}
+
+.custom-card {
+  background-color: #f2f3f4;
+}
+
+/* Footer section */
+#footer {
+  padding: 5% 7% 0 7%;
+  background-color: #f6efdb;
+}
+
+.footer-header {
+  border-top: 1px solid #b3afa680;
+  padding: 2% 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-header, .footer-icon-container {
+    text-align: center;
+  }
+}
+
+.footer-address-block {
+  padding: 3% 0;
+}
+
+.footer-text {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.google-map {
+  padding: 0 15px;
+}
+
+.img-footer {
+  background-image: url('../images/vegfooter.png');
+  min-height: 150px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
